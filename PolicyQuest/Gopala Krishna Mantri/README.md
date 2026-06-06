@@ -7,7 +7,7 @@ the discount factor is a parameter that determiines how much the rewards in the 
 ### gamma = 0
 
 in this case agent only cares about the immediate next step.
-unless it is standing exactly one square away from the treasure, all actions look equally worthless (0 reward). The policy fails to converge , resulting in random wandering and wall-bumping.
+unless it is standing exactly one square away from the goal, all actions look equally worthless. The policy fails to converge , resulting in random wandering and wall-bumping.
 
 ### gamma = 0.6
 
